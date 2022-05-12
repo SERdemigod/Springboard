@@ -1,0 +1,9 @@
+Final Model:
+sklearn.linear_model.LinearRegression()
+
+Features:
+KBest Features = 23
+
+Error Metrics:
+R Squared = .8311
+MSE = 268,127
