@@ -1,0 +1,24 @@
+Final Models:
+1. Segmentation 
+
+Model-
+sklearn.LatentDirichletAllocation
+
+Parameters -
+(n_components =5, batch_size=64, max_iter=7, learning_decay=.5)
+
+Error Metrics-
+Perplexity = 967.0393261982136
+Score = -21644703.750736266
+
+2. Forecasting
+
+Model-
+fbprophet.prophet
+
+Parameters -
+(seasonality = 'multiplicative')
+
+Error Metrics - 
+mean absolute percentage error (MAPE) = 11.2% 
+root mean square error (RMSE) = 48,891
